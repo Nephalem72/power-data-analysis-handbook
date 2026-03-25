@@ -20,6 +20,9 @@ data/processed/*
 !data/processed/.gitkeep
 !data/sample/.gitkeep
 
+# Release build working directory
+release-assets/power-data-kernel-bootstrap/
+
 # OS and editors
 .DS_Store
 Thumbs.db
