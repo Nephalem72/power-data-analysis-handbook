@@ -22,6 +22,7 @@
 \usepackage[most]{tcolorbox}
 \usepackage{titlesec}
 \usepackage{fancyhdr}
+\usepackage{bookmark}
 
 \hypersetup{
   colorlinks=true,
@@ -43,6 +44,10 @@
   {}
 
 \newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\repourl}{https://github.com/Nephalem72/power-data-analysis-handbook}
+\newcommand{\repohref}[1]{\href{\repourl}{#1}}
+\newcommand{\notebookhref}[2]{\href{\repourl/blob/main/notebooks/#1}{#2}}
+\newcommand{\dochref}[2]{\href{\repourl/blob/main/docs/#1}{#2}}
 
 \newcommand{\screenshotplaceholder}[4]{
 \begin{figure}[H]
@@ -73,5 +78,17 @@
 
 \medskip
 \textbf{Текст после рисунка:} #2
+\end{tcolorbox}
+}
+
+\newcommand{\chaptergoals}[2]{
+\begin{tcolorbox}[colback=gray!4,colframe=black!60,title={Цель главы и ожидаемые результаты}]
+\textbf{Цель главы.} #1
+
+\medskip
+\textbf{После изучения главы обучающийся должен уметь:}
+\begin{itemize}[leftmargin=1.25cm]
+#2
+\end{itemize}
 \end{tcolorbox}
 }
