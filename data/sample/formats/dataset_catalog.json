@@ -1,0 +1,20 @@
+[
+  {
+    "file_name":"grid_stability_fragment.csv",
+    "format":"CSV",
+    "theme":"classification",
+    "source_dataset":"Electrical Grid Stability Simulated Data"
+  },
+  {
+    "file_name":"combined_cycle_power_plant_fragment.xlsx",
+    "format":"XLSX",
+    "theme":"regression",
+    "source_dataset":"Combined Cycle Power Plant"
+  },
+  {
+    "file_name":"household_power_fragment.txt",
+    "format":"TXT",
+    "theme":"time_series",
+    "source_dataset":"Individual Household Electric Power Consumption"
+  }
+]

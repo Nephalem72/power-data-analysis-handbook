@@ -23,8 +23,14 @@
 - `data/sample/classification/electrical_grid_stability.csv`
 - `data/sample/regression/combined_cycle_power_plant.csv`
 - `data/sample/time_series/household_power_hourly_january_2007.csv`
+- `data/sample/formats/grid_stability_fragment.csv`
+- `data/sample/formats/combined_cycle_power_plant_fragment.xlsx`
+- `data/sample/formats/household_power_fragment.txt`
+- `data/sample/formats/dataset_catalog.json`
 
 Эти файлы должны использоваться в блокнотах через относительные пути.
+
+Каталог `data/sample/formats/` предназначен для главы о форматах и источниках данных. Он позволяет на реальных тематических примерах показать чтение `CSV`, `XLSX`, `TXT` и `JSON` без внешней подгрузки файлов.
 
 ## Восстановление полных исходных данных
 

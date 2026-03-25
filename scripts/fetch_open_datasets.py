@@ -15,6 +15,7 @@ def ensure_dirs() -> None:
     for path in [
         RAW_DIR,
         SAMPLE_DIR / "classification",
+        SAMPLE_DIR / "formats",
         SAMPLE_DIR / "regression",
         SAMPLE_DIR / "time_series",
     ]:
@@ -86,11 +87,67 @@ def fetch_time_series() -> None:
     )
 
 
+def build_format_examples() -> None:
+    classification = pd.read_csv(
+        SAMPLE_DIR / "classification" / "electrical_grid_stability.csv"
+    ).head(12)
+    classification.to_csv(
+        SAMPLE_DIR / "formats" / "grid_stability_fragment.csv", index=False
+    )
+
+    regression = pd.read_csv(
+        SAMPLE_DIR / "regression" / "combined_cycle_power_plant.csv"
+    ).head(20)
+    regression.to_excel(
+        SAMPLE_DIR / "formats" / "combined_cycle_power_plant_fragment.xlsx",
+        index=False,
+    )
+
+    time_series = pd.read_csv(
+        SAMPLE_DIR / "time_series" / "household_power_hourly_january_2007.csv"
+    ).head(48)
+    time_series.to_csv(
+        SAMPLE_DIR / "formats" / "household_power_fragment.txt",
+        index=False,
+        sep=";",
+    )
+
+    catalog = pd.DataFrame(
+        [
+            {
+                "file_name": "grid_stability_fragment.csv",
+                "format": "CSV",
+                "theme": "classification",
+                "source_dataset": "Electrical Grid Stability Simulated Data",
+            },
+            {
+                "file_name": "combined_cycle_power_plant_fragment.xlsx",
+                "format": "XLSX",
+                "theme": "regression",
+                "source_dataset": "Combined Cycle Power Plant",
+            },
+            {
+                "file_name": "household_power_fragment.txt",
+                "format": "TXT",
+                "theme": "time_series",
+                "source_dataset": "Individual Household Electric Power Consumption",
+            },
+        ]
+    )
+    catalog.to_json(
+        SAMPLE_DIR / "formats" / "dataset_catalog.json",
+        orient="records",
+        force_ascii=False,
+        indent=2,
+    )
+
+
 def main() -> None:
     ensure_dirs()
     fetch_classification()
     fetch_regression()
     fetch_time_series()
+    build_format_examples()
     print("Datasets fetched and samples prepared.")
 
 

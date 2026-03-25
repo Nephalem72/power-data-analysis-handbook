@@ -13,12 +13,18 @@
 - `classification/electrical_grid_stability.csv`
 - `regression/combined_cycle_power_plant.csv`
 - `time_series/household_power_hourly_january_2007.csv`
+- `formats/grid_stability_fragment.csv`
+- `formats/combined_cycle_power_plant_fragment.xlsx`
+- `formats/household_power_fragment.txt`
+- `formats/dataset_catalog.json`
 
 Эти файлы подобраны так, чтобы:
 
 - открываться без ручной настройки путей;
 - использоваться через относительные пути внутри блокнотов;
 - обеспечивать воспроизводимый запуск основных учебных примеров.
+
+Подкаталог `formats/` используется для демонстрации работы с различными типами файлов на реальных тематических данных.
 
 ## Правила
 
