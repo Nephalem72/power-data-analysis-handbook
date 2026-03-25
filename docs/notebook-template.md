@@ -1,98 +1,74 @@
-# Notebook Template
+# Шаблон учебного блокнота
 
-Use this as the default structure for instructional notebooks in this handbook. It mirrors the TyumGU analytical-note flow, but removes the decorative and research-team-specific parts.
+Документ задает базовую структуру практикумного ноутбука. Он ориентирован на ритм аналитической записки ТюмГУ, но без декоративных маркеров и без служебного повествования о самом репозитории.
 
-## Top-Level Order
+## Базовый порядок разделов
 
-1. Title
-2. Goal and expected outcomes
-3. Task summary
-4. Libraries and why they are used
-5. Data source and dataset notes
-6. Feature or column description
-7. Analysis stages
-8. Code blocks in small steps
-9. Interpretation after important outputs
-10. Final conclusions
-11. Self-study questions or mini tasks
-12. Sources
+1. Точное название и короткий подзаголовок
+2. Зачем выполняется работа
+3. Что будет сделано в практикуме
+4. Данные и инструменты
+5. Ход работы
+6. Код небольшими логическими шагами
+7. Интерпретация после ключевых результатов
+8. Итоговый вывод
+9. Вопросы для самостоятельной работы
+10. Источники
 
-## Suggested Skeleton
+## Рекомендуемый каркас
 
 ```markdown
-# Notebook Title
-Short subtitle or one-sentence project focus.
+# Практикум N. Точная тема
+Короткий подзаголовок: какой инженерный вопрос рассматривается и почему он важен.
 
-## Goal and Expected Outcomes
-Describe what the student should learn or produce.
+## Зачем выполняется эта работа
+Связать тему с практической задачей анализа данных в электроэнергетике.
 
-## Task Summary
-- What needs to be done
-- What data is used
-- What final result is expected
+## Что будет сделано в практикуме
+- какой набор данных открывается;
+- какой аналитический вопрос решается;
+- какой результат должен быть получен и интерпретирован.
 
-## Libraries and Why They Are Used
-| Library | Purpose |
+## Данные и инструменты
+| Компонент | Назначение |
 | --- | --- |
-| pandas | Data loading, cleaning, and aggregation |
-| matplotlib / seaborn | Charts and visual analysis |
-| scipy / statsmodels | Statistical checks and hypothesis tests |
-| sklearn | Modeling and evaluation |
+| pandas | чтение и преобразование данных |
+| matplotlib / seaborn | визуализация |
+| sklearn | моделирование и метрики |
 
-## Data Source and Dataset Notes
-- Source:
-- Format:
-- Time period / scope:
-- Known limitations:
+## Ход работы
+### Шаг 1. ...
+Пояснить, зачем выполняется этот шаг.
 
-## Feature or Column Description
-| Feature | Type | Meaning |
-| --- | --- | --- |
-| ... | ... | ... |
+### Шаг 2. ...
+Пояснить, что должно стать видно после выполнения.
 
-## Analysis Stages
-### 1. Data loading and preprocessing
-State the stage goal in one or two sentences.
+## Промежуточный вывод
+Объяснить, что показывает полученная таблица, график или метрика.
 
-### 2. Exploratory data analysis
-State which relationships, anomalies, or patterns are being checked.
+## Итоговый вывод
+Зафиксировать содержательный результат и методический смысл.
 
-### 3. Hypothesis testing or modeling
-State the analytical question and evaluation criteria.
+## Вопросы для самостоятельной работы
+1. ...
+2. ...
 
-### 4. Practical application
-Show how the results are used in a course-relevant scenario.
-
-## Code Blocks in Small Steps
-One analytical step per code cell. Keep cells short and cohesive.
-
-## Interpretation After Important Outputs
-Explain what the table, chart, or metric means for the task.
-
-## Final Conclusions
-Summarize the main findings, limits, and next steps.
-
-## Self-Study Questions or Mini Tasks
-- Question or exercise 1
-- Question or exercise 2
-
-## Sources
-Use the citation style required by the course or task.
+## Источники
+...
 ```
 
-## Fill-In Rules
+## Правила заполнения
 
-- Keep the title specific to the notebook topic.
-- Make the goal measurable: what should be understood, compared, predicted, or justified.
-- Keep the dataset notes factual and brief.
-- Use the feature table only for columns that matter to the analysis.
-- Expand analysis stages when the task needs more steps, but keep the same narrative order.
-- Add self-study questions when the notebook is meant for teaching or revision.
+- заголовок должен быть предметным, а не общим;
+- текст нужно вести как практикум для читателя, а не как служебную записку разработчику;
+- таблицы и графики нельзя оставлять без интерпретации;
+- каждая визуализация должна отвечать на один аналитический вопрос;
+- код должен быть разбит на небольшие шаги, соответствующие ходу рассуждения.
 
-## Preferred Presentation
+## Предпочтительная подача результатов
 
-- Use markdown for structure and explanation.
-- Use tables for metadata and summaries.
-- Use Styler only for compact summary output.
-- Place the interpretation directly below the output it explains.
-- Keep console output calm and intentional.
+- использовать таблицы для описания данных, признаков и метрик;
+- применять `Styler` только для компактных итоговых таблиц;
+- поддерживать единую цветовую палитру графиков;
+- размещать интерпретацию сразу после вывода;
+- избегать больших неструктурированных дампов данных.
