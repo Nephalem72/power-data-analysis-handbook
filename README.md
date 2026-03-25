@@ -44,6 +44,9 @@
 Инструкция:
 [docs/kernel-installation.md](docs/kernel-installation.md)
 
+Прямая ссылка на текущий установочный архив:
+[power-data-kernel-bootstrap-v0.1.0.zip](https://github.com/Nephalem72/power-data-analysis-handbook/releases/download/v0.1.0/power-data-kernel-bootstrap-v0.1.0.zip)
+
 Краткая схема:
 
 1. Скачать последний release с установочным архивом ядра.

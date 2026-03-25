@@ -1,37 +1,40 @@
-# Case Studies
+# Сквозные кейсы
 
-The handbook should use three applied case studies, one for each core modeling pattern in the course outline.
+В учебном комплекте используются три сквозных кейса, соответствующие основным типам задач, рассматриваемых в курсе.
 
-## 1. Classification case study
+## 1. Классификация
 
-Use the Electrical Grid Stability Simulated Data dataset for a binary classification task. The chapter asks the reader to predict whether a power-grid configuration is stable or unstable from the simulated control and load parameters.
+Для главы по классификации используется датасет **Electrical Grid Stability Simulated Data**.
+Постановка задачи состоит в определении устойчивого или неустойчивого состояния энергосистемы по набору расчетных параметров.
 
-- Notebook: `notebooks/05_case_study_classification.ipynb`
-- Goal: build a baseline classifier, compare it with a stronger model, and inspect errors with a confusion matrix.
-- Main lesson: feature scaling, class balance, and interpretability matter even when the data are synthetic and clean.
-- Suggested metrics: accuracy, precision, recall, F1, ROC-AUC.
+- Связанный блокнот: `notebooks/05_case_study_classification.ipynb`
+- Учебная цель: показать полный маршрут решения задачи классификации от подготовки данных до анализа ошибок.
+- Основной методический акцент: масштабирование признаков, баланс классов, интерпретация матрицы ошибок.
+- Базовые метрики: accuracy, precision, recall, F1, ROC-AUC.
 
-## 2. Regression case study
+## 2. Регрессия
 
-Use the Combined Cycle Power Plant dataset for a regression task. The chapter asks the reader to predict net hourly electrical energy output from ambient operating conditions.
+Для главы по регрессии используется датасет **Combined Cycle Power Plant**.
+Постановка задачи состоит в прогнозировании чистой электрической мощности на выходе станции по наблюдаемым условиям внешней среды.
 
-- Notebook: `notebooks/06_case_study_regression.ipynb`
-- Goal: compare a simple baseline against a better regressor and explain residual patterns.
-- Main lesson: regression metrics should be tied to operational meaning, not just leaderboard comparison.
-- Suggested metrics: MAE, RMSE, R2.
+- Связанный блокнот: `notebooks/06_case_study_regression.ipynb`
+- Учебная цель: показать, как соотносить численную ошибку модели с практическим смыслом прогнозирования.
+- Основной методический акцент: baseline-модель, сравнение регрессоров, анализ остатков.
+- Базовые метрики: MAE, RMSE, R2.
 
-## 3. Time series case study
+## 3. Временные ряды
 
-Use the Individual Household Electric Power Consumption dataset for a time-aware forecasting task. The chapter asks the reader to predict short-term household power demand after cleaning and resampling the minute-level readings.
+Для главы по временным рядам используется датасет **Individual Household Electric Power Consumption**.
+Постановка задачи состоит в прогнозировании краткосрочного потребления мощности после подготовки временной шкалы и агрегирования исходных наблюдений.
 
-- Notebook: `notebooks/07_case_study_time_series.ipynb`
-- Goal: build a forecast with lag features, run a time-aware split, and evaluate performance by horizon.
-- Main lesson: timestamp parsing, missing-value handling, and leakage prevention are the core skills in time-series work.
-- Suggested metrics: MAE, RMSE, sMAPE.
+- Связанный блокнот: `notebooks/07_case_study_time_series.ipynb`
+- Учебная цель: показать специфику временного порядка, лаговых признаков и временного разбиения.
+- Основной методический акцент: парсинг даты и времени, устранение пропусков, недопустимость утечки будущей информации.
+- Базовые метрики: MAE, RMSE, sMAPE.
 
-## Chapter Placement
+## Распределение по главам
 
-- Chapter 5 should host the classification case study.
-- Chapter 6 should host the regression case study.
-- Chapter 7 should host the time-series case study.
-- Each notebook should mirror the chapter template: data prep, baseline, model comparison, and a short interpretation section.
+- глава 5 соответствует задаче классификации;
+- глава 6 соответствует задаче регрессии;
+- глава 7 соответствует задаче временных рядов;
+- структура блокнотов должна соответствовать единому академическому шаблону: подготовка данных, baseline, сравнение моделей, интерпретация и выводы.

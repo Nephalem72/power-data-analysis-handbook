@@ -9,6 +9,9 @@
 Страница release:
 [https://github.com/Nephalem72/power-data-analysis-handbook/releases](https://github.com/Nephalem72/power-data-analysis-handbook/releases)
 
+Текущий установочный архив:
+[power-data-kernel-bootstrap-v0.1.0.zip](https://github.com/Nephalem72/power-data-analysis-handbook/releases/download/v0.1.0/power-data-kernel-bootstrap-v0.1.0.zip)
+
 ## Состав установочного архива
 
 Архив содержит:

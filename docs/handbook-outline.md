@@ -1,59 +1,59 @@
-# Handbook Outline
+# Оглавление пособия
 
-Course focus: practical power data analysis with a reproducible workflow, one companion notebook per chapter, and three applied case studies.
+Пособие строится как последовательный учебный курс по анализу данных в электроэнергетике.
+Каждая глава связана с отдельным блокнотом, а весь комплект подчинен требованию воспроизводимости вычислительного эксперимента.
 
-## Chapter Map
+## Карта глав
 
-1. **Course setup and workflow**
-   - Goal: explain the handbook structure, repository layout, notebook conventions, and reproducibility expectations.
-   - Notebook link: `notebooks/01_course_setup.ipynb`
-   - Practice: verify the local environment, run the first notebook, and inspect the saved outputs.
+1. **Среда работы и воспроизводимый контур**
+   - Цель: ввести структуру учебного комплекта, принципы работы в Jupyter и базовые требования к воспроизводимости.
+   - Связанный блокнот: `notebooks/01_course_setup.ipynb`
+   - Практический результат: проверка окружения, структуры каталогов и установленного kernel.
 
-2. **Power data, sources, and quality**
-   - Goal: describe common data sources, table structure, missingness patterns, leakage risks, and basic validation checks.
-   - Notebook link: `notebooks/02_data_sources_and_quality.ipynb`
-   - Practice: profile a raw dataset and document issues that must be fixed before modeling.
+2. **Источники данных и контроль качества**
+   - Цель: рассмотреть типовые источники энергетических данных, файловые форматы и риски, связанные с качеством исходной информации.
+   - Связанный блокнот: `notebooks/02_data_sources_and_quality.ipynb`
+   - Практический результат: первичное профилирование набора данных и фиксация проблем качества.
 
-3. **Exploratory analysis and feature design**
-   - Goal: turn raw measurements into interpretable summaries, time-aware aggregates, and candidate predictors.
-   - Notebook link: `notebooks/03_eda_and_features.ipynb`
-   - Practice: build a short EDA report and compare at least two feature sets.
+3. **Разведочный анализ и формирование признаков**
+   - Цель: показать, как из исходных измерений, журналов и таблиц формируются интерпретируемые признаки для дальнейшего анализа.
+   - Связанный блокнот: `notebooks/03_eda_and_features.ipynb`
+   - Практический результат: построение набора описательных статистик, графиков и производных признаков.
 
-4. **Splitting, metrics, and model selection**
-   - Goal: establish train/validation/test discipline, choose metrics, and avoid common evaluation mistakes.
-   - Notebook link: `notebooks/04_splitting_metrics_and_baselines.ipynb`
-   - Practice: create a baseline, compare metrics, and justify the chosen evaluation scheme.
+4. **Разбиение выборки, метрики и базовые модели**
+   - Цель: объяснить правила корректного разбиения данных, выбора метрик и построения базовых моделей сравнения.
+   - Связанный блокнот: `notebooks/04_splitting_metrics_and_baselines.ipynb`
+   - Практический результат: подготовка baseline-сценария и обоснование схемы оценки качества.
 
-5. **Case study 1: classification**
-   - Goal: solve a classification task on power-domain data, from preprocessing through interpretation.
-   - Notebook link: `notebooks/05_case_study_classification.ipynb`
-   - Practice: train a classifier, inspect confusion-matrix errors, and explain the main failure modes.
+5. **Кейс 1. Классификация**
+   - Цель: решить задачу классификации на энергетических данных и интерпретировать ошибки модели.
+   - Связанный блокнот: `notebooks/05_case_study_classification.ipynb`
+   - Практический результат: классификационная модель, матрица ошибок и анализ неверных предсказаний.
 
-6. **Case study 2: regression**
-   - Goal: solve a regression task and connect error metrics to operational meaning.
-   - Notebook link: `notebooks/06_case_study_regression.ipynb`
-   - Practice: compare a baseline and a stronger regressor, then interpret residual patterns.
+6. **Кейс 2. Регрессия**
+   - Цель: решить задачу регрессии и соотнести численные метрики ошибки с инженерным смыслом результата.
+   - Связанный блокнот: `notebooks/06_case_study_regression.ipynb`
+   - Практический результат: регрессионная модель, сравнение метрик и анализ остатков.
 
-7. **Case study 3: time series**
-   - Goal: handle temporal ordering, lag features, forecasting horizons, and backtesting.
-   - Notebook link: `notebooks/07_case_study_time_series.ipynb`
-   - Practice: build a forecast, run a time-aware split, and assess error by horizon.
+7. **Кейс 3. Временные ряды**
+   - Цель: рассмотреть временную структуру данных, лаговые признаки, горизонты прогноза и схему backtesting.
+   - Связанный блокнот: `notebooks/07_case_study_time_series.ipynb`
+   - Практический результат: прогнозный сценарий с временным разбиением и оценкой качества по горизонту.
 
-8. **Interpretation, uncertainty, and reporting**
-   - Goal: explain model behavior, quantify uncertainty where relevant, and write results for a technical audience.
-   - Notebook link: `notebooks/08_interpretation_and_reporting.ipynb`
-   - Practice: produce a compact results summary with assumptions, limitations, and next steps.
+8. **Интерпретация результатов и представление выводов**
+   - Цель: научить формулировать результаты анализа в инженерно корректной форме и отделять вывод от предположения.
+   - Связанный блокнот: `notebooks/08_interpretation_and_reporting.ipynb`
+   - Практический результат: структурированный отчет по результатам вычислительного эксперимента.
 
-9. **Capstone integration**
-   - Goal: combine the workflow into a small end-to-end project and prepare a final deliverable.
-   - Notebook link: `notebooks/09_capstone.ipynb`
-   - Practice: complete an integrated analysis that reuses the same reproducible structure from the earlier chapters.
+9. **Итоговая интеграционная работа**
+   - Цель: собрать полный маршрут анализа данных на едином примере с сохранением структуры, метрик и результатов.
+   - Связанный блокнот: `notebooks/09_capstone.ipynb`
+   - Практический результат: завершенный мини-проект, оформленный по требованиям пособия.
 
-## Design Principles
+## Методические принципы
 
-- Every chapter should pair theory with one notebook that demonstrates the same workflow on a concrete power-data task.
-- The three case studies should be distinct: one classification problem, one regression problem, and one time series problem.
-- Each chapter should end with self-check questions and a lab task that can be completed with the companion notebook or the repository data.
-- Keep the handbook focused on engineering decisions: inputs, transformations, metrics, outputs, and saved artifacts.
-- Favor short, reusable examples over long code blocks.
-
+- каждая глава должна завершаться вопросами для самопроверки и лабораторным заданием;
+- каждая глава должна иметь исполняемый блокнот, связанный с ее содержанием;
+- сквозные кейсы должны охватывать классификацию, регрессию и временные ряды;
+- при изложении материала основной акцент делается на данных, преобразованиях, метриках и инженерной интерпретации;
+- код в пособии должен быть короче и проще, чем код в сопровождающих блокнотах.
