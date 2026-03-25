@@ -23,6 +23,16 @@ data/processed/*
 # Release build working directory
 release-assets/power-data-kernel-bootstrap/
 
+# LaTeX auxiliary files
+handbook/latex/*.aux
+handbook/latex/*.fdb_latexmk
+handbook/latex/*.fls
+handbook/latex/*.lof
+handbook/latex/*.log
+handbook/latex/*.out
+handbook/latex/*.toc
+handbook/latex/*.xdv
+
 # OS and editors
 .DS_Store
 Thumbs.db

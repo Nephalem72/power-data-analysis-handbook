@@ -14,6 +14,7 @@
 ## Состав
 
 - главы учебного пособия;
+- LaTeX-макет пособия и собранный PDF;
 - блокноты по темам курса;
 - три сквозных кейса:
   классификация, регрессия, временные ряды;
@@ -71,6 +72,9 @@
 - [docs/notebook-style-guide.md](docs/notebook-style-guide.md)
 - [docs/jupyter-environment.md](docs/jupyter-environment.md)
 - [docs/kernel-installation.md](docs/kernel-installation.md)
+- [handbook/latex/main.tex](handbook/latex/main.tex)
+- [handbook/latex/main.pdf](handbook/latex/main.pdf)
+- [handbook/latex/FIGURE_PLAN.md](handbook/latex/FIGURE_PLAN.md)
 
 ## Воспроизводимость
 

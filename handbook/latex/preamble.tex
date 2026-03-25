@@ -1,0 +1,77 @@
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setdefaultlanguage{russian}
+\setotherlanguage{english}
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\setmonofont{Consolas}
+
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage[most]{tcolorbox}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue,
+  citecolor=black
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Системный анализ данных для электроэнергетиков}
+\fancyhead[R]{\thepage}
+\setlength{\headheight}{15pt}
+
+\titleformat{\chapter}[block]
+  {\normalfont\bfseries\Large}
+  {\thechapter}
+  {1em}
+  {}
+
+\newcommand{\code}[1]{\texttt{#1}}
+
+\newcommand{\screenshotplaceholder}[4]{
+\begin{figure}[H]
+\centering
+\begin{tcolorbox}[
+  colback=gray!5,
+  colframe=black!65,
+  width=0.92\textwidth,
+  title={#2},
+  fonttitle=\bfseries
+]
+\textbf{Идентификатор рисунка:} #1
+
+\medskip
+\textbf{Что должно быть на рисунке:} #3
+
+\medskip
+\textbf{Что необходимо сделать:} #4
+\end{tcolorbox}
+\caption{#2}
+\label{#1}
+\end{figure}
+}
+
+\newcommand{\figureinstruction}[2]{
+\begin{tcolorbox}[colback=white,colframe=black!65,width=0.92\textwidth]
+\textbf{Подпись к рисунку:} #1
+
+\medskip
+\textbf{Текст после рисунка:} #2
+\end{tcolorbox}
+}
