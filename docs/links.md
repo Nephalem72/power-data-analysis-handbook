@@ -12,5 +12,3 @@
   [GitVerse](https://gitverse.ru/Nephalem/power-data-analysis-handbook/tree/main/notebooks) или [GitHub](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/notebooks)
 - Данные:
   [GitVerse](https://gitverse.ru/Nephalem/power-data-analysis-handbook/tree/main/data) или [GitHub](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/data)
-
-При вставке ссылок в текст пособия сначала указывать GitVerse, затем GitHub через `или`. Для точечных файлов использовать `blob/main/...` или `tree/main/...` в том же порядке.

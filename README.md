@@ -8,8 +8,6 @@
 - Основной публичный адрес: [GitVerse](https://gitverse.ru/Nephalem/power-data-analysis-handbook)
 - Зеркало: [GitHub](https://github.com/Nephalem72/power-data-analysis-handbook)
 
-Если в тексте нужны обе ссылки, используйте порядок: `GitVerse` или `GitHub`.
-
 ## Назначение
 
 Материалы ориентированы на:
