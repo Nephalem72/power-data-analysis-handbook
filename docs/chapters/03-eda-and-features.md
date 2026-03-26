@@ -64,7 +64,7 @@ df["load_lag_1"] = df["load"].shift(1)
 
 ## Связанный ноутбук
 
-- GitHub: [notebooks/03_eda_and_features.ipynb](https://github.com/Nephalem72/power-data-analysis-handbook/blob/main/notebooks/03_eda_and_features.ipynb)
+- GitVerse: [notebooks/03_eda_and_features.ipynb](https://gitverse.ru/Nephalem/power-data-analysis-handbook/blob/main/notebooks/03_eda_and_features.ipynb)
 - Назначение: показать переход от первичного описания данных к осмысленному набору признаков.
 
 ## Вопросы для самопроверки

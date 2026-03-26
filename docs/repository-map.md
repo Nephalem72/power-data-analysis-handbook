@@ -1,21 +1,21 @@
 # Карта репозитория
 
 Корень репозитория:
-[https://github.com/Nephalem72/power-data-analysis-handbook](https://github.com/Nephalem72/power-data-analysis-handbook)
+[GitVerse](https://gitverse.ru/Nephalem/power-data-analysis-handbook) или [GitHub](https://github.com/Nephalem72/power-data-analysis-handbook)
 
 ## Основные каталоги
 
-- [README.md](https://github.com/Nephalem72/power-data-analysis-handbook/blob/main/README.md) — входная точка проекта.
-- [docs/](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/docs) — методические и организационные документы.
-- [notebooks/](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/notebooks) — учебные блокноты и шаблоны.
-- [data/](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/data) — данные и правила их размещения.
-- [scripts/](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/scripts) — сценарии загрузки и подготовки открытых наборов данных.
-- [src/](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/src) — вспомогательный код.
-- [kernel/](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/kernel) — состав учебного ядра и bat-установщики.
-- [handbook/](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/handbook) — LaTeX-макет пособия и собранный PDF.
-- [release-assets/](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/release-assets) — архивы для GitHub Releases.
-- [tasks/](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/tasks) — задания и упражнения.
-- [figures/](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/figures) — графические материалы.
+- [README.md](https://gitverse.ru/Nephalem/power-data-analysis-handbook/blob/main/README.md) или [GitHub](https://github.com/Nephalem72/power-data-analysis-handbook/blob/main/README.md) — входная точка проекта.
+- [docs/](https://gitverse.ru/Nephalem/power-data-analysis-handbook/tree/main/docs) или [GitHub](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/docs) — методические и организационные документы.
+- [notebooks/](https://gitverse.ru/Nephalem/power-data-analysis-handbook/tree/main/notebooks) или [GitHub](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/notebooks) — учебные блокноты и шаблоны.
+- [data/](https://gitverse.ru/Nephalem/power-data-analysis-handbook/tree/main/data) или [GitHub](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/data) — данные и правила их размещения.
+- [scripts/](https://gitverse.ru/Nephalem/power-data-analysis-handbook/tree/main/scripts) или [GitHub](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/scripts) — сценарии загрузки и подготовки открытых наборов данных.
+- [src/](https://gitverse.ru/Nephalem/power-data-analysis-handbook/tree/main/src) или [GitHub](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/src) — вспомогательный код.
+- [kernel/](https://gitverse.ru/Nephalem/power-data-analysis-handbook/tree/main/kernel) или [GitHub](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/kernel) — состав учебного ядра и bat-установщики.
+- [handbook/](https://gitverse.ru/Nephalem/power-data-analysis-handbook/tree/main/handbook) или [GitHub](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/handbook) — LaTeX-макет пособия и собранный PDF.
+- [release-assets/](https://gitverse.ru/Nephalem/power-data-analysis-handbook/tree/main/release-assets) или [GitHub](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/release-assets) — архивы для GitHub Releases.
+- [tasks/](https://gitverse.ru/Nephalem/power-data-analysis-handbook/tree/main/tasks) или [GitHub](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/tasks) — задания и упражнения.
+- [figures/](https://gitverse.ru/Nephalem/power-data-analysis-handbook/tree/main/figures) или [GitHub](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/figures) — графические материалы.
 
 ## Репозиторная логика
 
@@ -29,3 +29,6 @@
 - `kernel/` фиксирует единый состав библиотек и способ регистрации отдельного Jupyter kernel.
 - `handbook/latex/` хранит исходники пособия в LaTeX, план рисунков и собранный PDF.
 - `release-assets/` хранит собранные архивы, публикуемые как releases.
+
+Зеркало GitHub для тех же путей:
+[https://github.com/Nephalem72/power-data-analysis-handbook](https://github.com/Nephalem72/power-data-analysis-handbook)

@@ -70,7 +70,7 @@ mae
 
 ## Связанный ноутбук
 
-- GitHub: [notebooks/04_splitting_metrics_and_baselines.ipynb](https://github.com/Nephalem72/power-data-analysis-handbook/blob/main/notebooks/04_splitting_metrics_and_baselines.ipynb)
+- GitVerse: [notebooks/04_splitting_metrics_and_baselines.ipynb](https://gitverse.ru/Nephalem/power-data-analysis-handbook/blob/main/notebooks/04_splitting_metrics_and_baselines.ipynb)
 - Назначение: показать стандартную схему оценки качества до перехода к прикладным кейсам.
 
 ## Вопросы для самопроверки

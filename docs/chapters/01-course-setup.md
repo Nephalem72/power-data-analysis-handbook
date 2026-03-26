@@ -87,7 +87,7 @@ print(sklearn.__version__)
 
 ## Связанный ноутбук
 
-- GitHub: [notebooks/01_course_setup.ipynb](https://github.com/Nephalem72/power-data-analysis-handbook/blob/main/notebooks/01_course_setup.ipynb)
+- GitVerse: [notebooks/01_course_setup.ipynb](https://gitverse.ru/Nephalem/power-data-analysis-handbook/blob/main/notebooks/01_course_setup.ipynb)
 - Назначение: показать базовую организацию работы, проверку окружения и первые действия в Jupyter.
 
 ## Вопросы для самопроверки

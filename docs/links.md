@@ -1,14 +1,16 @@
 # Публичные ссылки
 
-- Репозиторий:
-  [https://github.com/Nephalem72/power-data-analysis-handbook](https://github.com/Nephalem72/power-data-analysis-handbook)
-- README:
-  [https://github.com/Nephalem72/power-data-analysis-handbook/blob/main/README.md](https://github.com/Nephalem72/power-data-analysis-handbook/blob/main/README.md)
-- Документы:
-  [https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/docs](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/docs)
-- Ноутбуки:
-  [https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/notebooks](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/notebooks)
-- Данные:
-  [https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/data](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/data)
+Основной адрес в пособии и документации: GitVerse. GitHub используется как зеркало.
 
-Использовать эти URL как базу для гиперссылок в пособии. По мере появления новых файлов добавлять точные ссылки на `blob/main/...` или `tree/main/...`.
+- Репозиторий:
+  [GitVerse](https://gitverse.ru/Nephalem/power-data-analysis-handbook) или [GitHub](https://github.com/Nephalem72/power-data-analysis-handbook)
+- README:
+  [GitVerse](https://gitverse.ru/Nephalem/power-data-analysis-handbook/blob/main/README.md) или [GitHub](https://github.com/Nephalem72/power-data-analysis-handbook/blob/main/README.md)
+- Документы:
+  [GitVerse](https://gitverse.ru/Nephalem/power-data-analysis-handbook/tree/main/docs) или [GitHub](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/docs)
+- Ноутбуки:
+  [GitVerse](https://gitverse.ru/Nephalem/power-data-analysis-handbook/tree/main/notebooks) или [GitHub](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/notebooks)
+- Данные:
+  [GitVerse](https://gitverse.ru/Nephalem/power-data-analysis-handbook/tree/main/data) или [GitHub](https://github.com/Nephalem72/power-data-analysis-handbook/tree/main/data)
+
+При вставке ссылок в текст пособия сначала указывать GitVerse, затем GitHub через `или`. Для точечных файлов использовать `blob/main/...` или `tree/main/...` в том же порядке.

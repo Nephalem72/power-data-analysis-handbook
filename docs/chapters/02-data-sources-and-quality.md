@@ -85,7 +85,7 @@ duplicate_count
 
 ## Связанный ноутбук
 
-- GitHub: [notebooks/02_data_sources_and_quality.ipynb](https://github.com/Nephalem72/power-data-analysis-handbook/blob/main/notebooks/02_data_sources_and_quality.ipynb)
+- GitVerse: [notebooks/02_data_sources_and_quality.ipynb](https://gitverse.ru/Nephalem/power-data-analysis-handbook/blob/main/notebooks/02_data_sources_and_quality.ipynb)
 - Назначение: показать первичную загрузку данных, проверку структуры, пропусков, типов и дубликатов.
 
 ## Вопросы для самопроверки

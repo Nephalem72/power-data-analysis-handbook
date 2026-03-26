@@ -51,4 +51,4 @@
 
 - команда запуска `launch_jupyter_lab.bat` открывает JupyterLab;
 - в списке kernels доступно ядро `Power Data Analysis`;
-- блокнот [notebooks/01_course_setup.ipynb](https://github.com/Nephalem72/power-data-analysis-handbook/blob/main/notebooks/01_course_setup.ipynb) выполняется без ошибок.
+- блокнот [notebooks/01_course_setup.ipynb](https://gitverse.ru/Nephalem/power-data-analysis-handbook/blob/main/notebooks/01_course_setup.ipynb) выполняется без ошибок.
